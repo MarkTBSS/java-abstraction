@@ -2,6 +2,14 @@ public class Novice implements Player {
     private String name;
     private String classname;
     private int health;
+
+    public int getHealth() {
+        return health;
+    }
+    
+    public void setHealth(int health) {
+        this.health = health;
+    }
     // Constructor
     public Novice(String name, String classname, int health) {
         this.name = name;

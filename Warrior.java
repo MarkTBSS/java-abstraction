@@ -14,10 +14,4 @@ public class Warrior extends Novice {
         color = "Red";
         System.out.println("Color Changed: " + color);
     }
-    // Method to reduce incoming damage by half
-    @Override
-    public void deleteHealth(int damage) {
-        int halfDamage = damage / 2;
-        super.deleteHealth(halfDamage);
-    }
 }
