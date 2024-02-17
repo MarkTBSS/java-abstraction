@@ -1,4 +1,4 @@
-public class Novice {
+public class Novice implements Player {
     private String name;
     private String classname;
     private int health;
